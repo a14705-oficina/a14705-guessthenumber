@@ -4,22 +4,36 @@
 
 <h1> | REGRAS </h1>
 
-     - Pedir ao utilizador para inserir o nome
+     → Pedir ao utilizador para inserir o nome
 
-     - IA: GERAR NÚMERO 0-20
+     → IA: GERAR NÚMERO 0-20
 
-     - UTILIZADOR:
+     → UTILIZADOR:
         6 TENTATIVAS PARA ACERTAR
 
-     - IA: APENAS RESPONDE SUPERIOR OU INFERIOR
-     - IA: NÚMERO DE TENTATIVAS RESTANTES
+     → IA: APENAS RESPONDE SUPERIOR OU INFERIOR
+     → IA: NÚMERO DE TENTATIVAS RESTANTES
      ----------------
-     - VITÓRIA
+     → VITÓRIA
         IA: MENSAGEM DE SUCESSO
         IA: NÚMERO NECESSÁRIO PARA ACERTAR
      -----------------
-     - Jogar outra vez?
+     → Jogar outra vez?
 
+<h1> | CONTEÚDOS UTILIZADOS </h1>
+
+      → import
+      → Argumentos
+      → while
+      → Condições
+      → Blocos
+      → Booleans
+      → Operadores de Comparação
+      → A diferença entre = e ==
+      → if
+      → break keyword
+      → Funções str() e int()
+      → Função random.randint()
 
 
 
