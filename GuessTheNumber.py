@@ -15,7 +15,7 @@ while tentativas > 0:
     tentativas -= 1
     print(f"\nAinda tens {tentativas} tentativas!")
   elif num == aleatorio:
-    print(f"\nVitória! Parabéns {nome}! Conseguiste acertar o número em {tentativas} tentativas.")
+    print(f"\nVitória! Parabéns {nome}! Conseguiste acertar o número em {7 - tentativas} tentativas.")
     break
   if tentativas == 0:
     print(f"\nEsgotaste as tuas tentativas! O número correto era {aleatorio}. Tavas tão perto!!!")
