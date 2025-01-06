@@ -2,7 +2,7 @@ import random
 continuar = True
 tentativas = 6
 aleatorio = int(random.randint(0,20))
-print("--------GUESS THE NUMBER--------")
+print("--------GUESS THE NUMBER--------\t\n\nTens 6 tentativas para acertar o número!")
 nome = input("\nEscreva o seu nome: ")
 while tentativas > 0:
   num = int(input("\nInsira o seu valor: "))
@@ -19,9 +19,10 @@ while tentativas > 0:
     break
   if tentativas == 0:
     print(f"\nEsgotaste as tuas tentativas! O número correto era {aleatorio}. Tavas tão perto!!!")
-    while continuar:
-      resposta = input("\nQueres jogar de novo? (Sim (S) | Não (N)): ")
-      if resposta == "S":
-            continuar = False
-      elif resposta == "N":
-        quit()
+while continuar:
+  resposta = input("\nQueres jogar de novo? (Sim (S) | Não (N)): ")
+  if resposta == "S":
+    continuar = True
+  elif resposta == "N":
+    continuar = False
+    print("\nObrigado por jogar!")
